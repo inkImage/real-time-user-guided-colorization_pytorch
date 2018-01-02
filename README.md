@@ -30,6 +30,13 @@ then run train
 python deep_color.py
 ```
 
+to sample results you first need to run deep_color.py, which will automatically save models under a models folder that will be made in your root directory.
+I did not include pretrained models in this repository. The --model unet100.pkl below is a sample after 100 epochs. Change the command according to your model that you want to sample.
+```
+python sampling.py --model unet100.pkl
+```
+
+
 ### Results
 
 Input black and white image
