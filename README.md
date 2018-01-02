@@ -7,6 +7,7 @@ This is a pytorch implementation of ["Real-Time User-Guided Image Colorization w
 ### Prerequisites
 
 torch==0.2.0.post4, torchvision==0.1.9
+The code is written with the default setting that you have gpu. Cpu mode is not recommended when using this repository.
 
 ### Installing and running the tests
 
@@ -30,7 +31,14 @@ python deep_color.py
 ```
 
 ### Results
-<img src="https://user-images.githubusercontent.com/32257532/34465590-89888210-eef6-11e7-93fe-f061c62c8ef5.png" width="300">
+
+Input black and white image
+<img src="https://user-images.githubusercontent.com/32257532/34475069-350aaf80-efcb-11e7-8a79-d77a593273be.png" width="250">
+Predicted colorization output
+<img src="https://user-images.githubusercontent.com/32257532/34475079-686cd448-efcb-11e7-95a5-7deb44c06148.png" width="250">
+Ground truth image
+<img src="https://user-images.githubusercontent.com/32257532/34475088-914b697e-efcb-11e7-8580-2e624af9842e.png" width="250">
+
 
 ### Note
 This is not a complete implementation. I have implemented the global hints network but have yet to incorporate it into the main network.
