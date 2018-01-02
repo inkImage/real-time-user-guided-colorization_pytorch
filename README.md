@@ -33,12 +33,15 @@ python deep_color.py
 ### Results
 
 Input black and white image
+
 <img src="https://user-images.githubusercontent.com/32257532/34475069-350aaf80-efcb-11e7-8a79-d77a593273be.png" width="250">
 
 Predicted colorization output
+
 <img src="https://user-images.githubusercontent.com/32257532/34475079-686cd448-efcb-11e7-95a5-7deb44c06148.png" width="250">
 
 Ground truth image
+
 <img src="https://user-images.githubusercontent.com/32257532/34475088-914b697e-efcb-11e7-8580-2e624af9842e.png" width="250">
 
 
