@@ -1,4 +1,4 @@
-# Real Time User-guided Colorizationpy with Learned Deep Priors implemented in pytorch
+# "Real Time User-guided Colorization with Learned Deep Priors" implemented in pytorch
 
 This is a pytorch implementation of ["Real-Time User-Guided Image Colorization with Learned Deep Priors"](https://arxiv.org/abs/1705.02999) by Zhang et.al.
 
@@ -50,6 +50,7 @@ This is not a complete implementation. I have implemented the global hints netwo
 
 
 ### Further work
+* global hints network
 
 
 ## Acknowledgments
